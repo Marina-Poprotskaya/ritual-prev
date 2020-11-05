@@ -1,0 +1,32 @@
+@media (max-width: 1420px) {
+    /* main page  */
+    .popular_goods_wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .popular_goods_insert {
+        padding: 10px;
+    }
+    .our_works_wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .our_works_insert:first-child {
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .header .right {
+        display: none;
+    }
+    .header_top {
+        justify-content: center;
+    }
+    .our_production_wrapper {
+        display: block;
+    }
+    .line_left {
+        /* display: none; */
+    }
+}
